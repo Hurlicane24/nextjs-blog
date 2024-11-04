@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Counter from "../components/counter";
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
 
       <h1 className={styles.title}>
           Kellen Hurley welcomes <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      </h1>
+
+      <Counter />
 
     </div>
   );
